@@ -1,0 +1,42 @@
+/* generics */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* utilities */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* content */
+
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    width: calc(100% / 10);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.even {
+    background-color: yellowgreen;
+}
+
+.odd {
+    background-color: brown;
+}
